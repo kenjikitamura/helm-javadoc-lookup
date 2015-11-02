@@ -1,14 +1,14 @@
-# javadoc-lookup
+# helm-javadoc-lookup
 
-This package provides a `javadoc-lookup` function for quickly looking
+This package provides a `helm-javadoc-lookup` function for quickly looking
 up Javadoc for any library from within Emacs, optionally integrating
 with Maven. A browser is launched to view the documentation.
 
-`javadoc-lookup` is not bound to any key by default, so you may want
+`helm-javadoc-lookup` is not bound to any key by default, so you may want
 to add this to your initialization file,
 
 ```el
-(global-set-key (kbd "C-h j") 'javadoc-lookup)
+(global-set-key (kbd "C-h j") 'helm-javadoc-lookup)
 ````
 
 An index for the core Java classes (i.e. java.*) is provided
